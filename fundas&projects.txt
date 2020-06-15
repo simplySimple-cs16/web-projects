@@ -1,0 +1,6 @@
+SECTION 2 : Introduction to HTML
+  - devdocs.io -> website for good reference
+  - <br> : line break for newline
+  - <hr> : for horizontal line
+  - html tag = element + attribute
+  - <center> </center> : to center contents
