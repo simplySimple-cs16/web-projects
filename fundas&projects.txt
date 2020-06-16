@@ -4,3 +4,8 @@ SECTION 2 : Introduction to HTML
   - <hr> : for horizontal line
   - html tag = element + attribute
   - <center> </center> : to center contents
+  **Project 1 : HTML-Personal Website
+    -unicode-table.com : good resource for character and emojis
+    -meta<name='description' content='this is what will appear in the search results for ur Website'>
+    -<p> : for paragraphs
+    - <i> vs <em> : for italicising better use <em>
