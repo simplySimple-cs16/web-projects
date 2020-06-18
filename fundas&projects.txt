@@ -9,3 +9,11 @@ SECTION 2 : Introduction to HTML
     -meta<name='description' content='this is what will appear in the search results for ur Website'>
     -<p> : for paragraphs
     - <i> vs <em> : for italicising better use <em>
+    - <b> vs <strong> : for bold better use <strong>
+    - <ul> and <ol> ,<li> for HTML list
+    - <img src="" alt=""> : for adding images
+    - https://crop-circle.imageonline.co/ : for circular image cropping online
+    - <a href="">Text to display </a> for links
+    - table structure : head, body and foot and inside them tr for new row and th & td for cell in each tr no column in
+      html table
+    - we can use HTML also for structuring our website LAYOUT but css is recommended.
