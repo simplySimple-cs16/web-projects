@@ -18,3 +18,20 @@ SECTION 2&3 : HTML
       html table
     - we can use HTML also for structuring our website LAYOUT but css is recommended.
     - HTML forms.... label, input, textarea
+==================================================================================================================================
+
+SECTION 4: Introduction to CSS
+  **Project 1 Continued
+    - Inline css : css code within [the same html file : INCORRECT] a tag i.e as an attribute to an HTML element
+    - https://colorhunt.co/ : Color Palettes for Designers and Artists
+    - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value : color hex values and their names
+    - Internal CSS : css code within the head section of the HTML file and applies for selected tags
+    - overriding default browser css value for hr
+    - External CSS : css code lies in another file than the html file
+    - link for linking stylesheet
+    - CSS types priority :
+        -first: Inline
+        -second: Internal
+        -third: External
+    - CSS sytax:
+        selector{proerty:value;}
