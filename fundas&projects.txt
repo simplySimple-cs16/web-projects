@@ -1,4 +1,4 @@
-SECTION 2 : Introduction to HTML
+SECTION 2&3 : HTML
   - devdocs.io -> website for good reference
   - <br> : line break for newline
   - <hr> : for horizontal line
@@ -17,3 +17,4 @@ SECTION 2 : Introduction to HTML
     - table structure : head, body and foot and inside them tr for new row and th & td for cell in each tr no column in
       html table
     - we can use HTML also for structuring our website LAYOUT but css is recommended.
+    - HTML forms.... label, input, textarea
