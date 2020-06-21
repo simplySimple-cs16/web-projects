@@ -1,0 +1,26 @@
+/* Element Selectors */
+h1{
+  color: blue;
+  font-size: 50px;
+}
+
+
+/* Class Selectors */
+.bacon{
+  background-color: green;
+}
+
+.broccoli{
+  background-color: red;
+  border-radius: 100%
+}
+
+/* id Selectors */
+#bacon{
+  color : green;
+}
+
+/* pseudo-class selector */
+img:hover{
+  background-color: yellow;
+}

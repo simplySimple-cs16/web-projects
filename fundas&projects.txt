@@ -35,3 +35,40 @@ SECTION 4: Introduction to CSS
         -third: External
     - CSS sytax:
         selector{proerty:value;}
+    - advisable to list css proerties in alphabetical order so that the debugging process is easier
+    - css selectors in order of increasing priority:
+        -element selector: for eg h1,h2{}
+        -class selector: .className{}
+            -a html tag can have more than one class.
+                eg: <img class="a b" src=""/>
+            -more than one html tag can have the same class name.
+                eg: <h1 class="a"> hi </h1>
+                    <h3 class="a"> hi </h3>
+        -id selector: #idName{}
+            -a html tag cannot have more than one id.
+            -a id name can be used only once
+        -pseudo class selector:
+            -detect changes in HTML state and apply css properties accordingly. For eg. the state of being hovered or not
+            -eg:
+              img:hover{
+                background-color:red;
+              }
+              -change the color of image to red when hovered
+      - https://www.favicon.cc/ : for creating fav icons
+  **Project 2 : CSS - My Site
+    - HTML div for dividing HTML ELEMENT into sections
+    - box model : border, margin and padding concept
+    - border : solid 10px; //shortcut for specicifying border type and size
+    - CSS diaplay properties:
+        -block
+          -block element takes up the whole WIDTH of the screen
+          -block elements: h1,p
+          -width can be changed.
+        -Inline
+          -take up width only to the size of the element.
+          -Inline elements : span,img,<a>
+          CAN't change the width.
+        -inline-block
+        -none
+    - block can be change to inline and vice-versa using css display: ; property
+    - <span> : for sections within an HTML ELEMENT. It's an inline display element.
