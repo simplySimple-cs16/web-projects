@@ -66,9 +66,23 @@ SECTION 4: Introduction to CSS
           -width can be changed.
         -Inline
           -take up width only to the size of the element.
-          -Inline elements : span,img,<a>
+          -Inline elements : span,<a>
           CAN't change the width.
         -inline-block
+          -best of both worlds
+          -element are on the same line and thier width can be changed too.
+          - eg : <img>
         -none
+          - make the element disappear.
+          - helps in hiding things
+          - same thing can be achieved by visibility: ; property
     - block can be change to inline and vice-versa using css display: ; property
     - <span> : for sections within an HTML ELEMENT. It's an inline display element.
+    - CSS positioning:
+        -content is everything: height of box is that always of the content.Width of box may not be same i.e block or inline
+        -HTML code determines the order of things displayed
+        -children sit on top of parent:
+          eg. <div>
+                <h1> I am <span>Kadum Perme</span> </h1>
+              <div>
+              on screen, first div will be rendered, than h1 and than span.
