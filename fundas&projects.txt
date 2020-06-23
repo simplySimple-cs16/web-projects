@@ -20,7 +20,7 @@ SECTION 2&3 : HTML
     - HTML forms.... label, input, textarea
 ==================================================================================================================================
 
-SECTION 4: Introduction to CSS
+SECTION 4&5: CSS
   **Project 1 Continued
     - Inline css : css code within [the same html file : INCORRECT] a tag i.e as an attribute to an HTML element
     - https://colorhunt.co/ : Color Palettes for Designers and Artists
@@ -64,9 +64,11 @@ SECTION 4: Introduction to CSS
           -block element takes up the whole WIDTH of the screen
           -block elements: h1,p
           -width can be changed.
+          -elements are on new line
         -Inline
           -take up width only to the size of the element.
           -Inline elements : span,<a>
+          -elements can be in the same line
           CAN't change the width.
         -inline-block
           -best of both worlds
@@ -86,3 +88,52 @@ SECTION 4: Introduction to CSS
                 <h1> I am <span>Kadum Perme</span> </h1>
               <div>
               on screen, first div will be rendered, than h1 and than span.
+        - POSITIONING:
+            1. Static
+            2. Relative //position:relative;
+                - then coordinates can be used. i,e top,bottom,left,right : ;
+                - relative to where the element should have been positioned earlier before adding coordinates.
+            3. Absolute
+                - relative to the parent of the element.
+            4. Fixed
+                - stay on the same position on screen and scrolling doesn't have any effect on the position of fixed element
+      - Two ways of centering things:
+          1. using text-align:; in parent.
+          2. using margin: 0 auto;//for horizontal centering
+                   margin: auto 0;  //for vertical centering
+      - WEB DESIGN PRINCIPLES:
+          1. Colour Theory
+              -https://color.adobe.com/create/color-wheel : for selecting different combinations of colour palette.
+              -https://colorhunt.co/ : for colour palette by designers.
+          2. Typography
+          3. UI(user interface) Design
+              Principles:
+                1.Hierarchy
+                2.Layout
+                3.Alignment
+                4.Whitespace
+                5.Audience
+          4. UX(user experience) Design
+              Principles:
+                1.Simplicity
+                2.Consistency
+                3.Reading Pattern(F or Z)
+                4.All platform design
+                5.Don't use your power for evil
+          - https://www.dailyui.co/ : for becoming a better ui designer in 100 days
+          - https://collectui.com/ : for amazing UI designs
+          - https://www.canva.com/ : for designing designs from scratch online
+
+      - Fonts
+          -https://www.cssfontstack.com/ : for series of fallbacks, i.e if one font doesn't work then one of the other in the list
+            should work
+          - if u think other people should view the same font u r using inspite of them not having the font type in their
+            system then go for font embedding, i.e google fonts.
+          -CSS Font Sizing:
+            100% = 1em = 16px
+            - em and % inherit from their parent i.e if parent is 2em and child is specified to be 5em than the
+              child is actually of 2x5 = 10em in size. But it does not happen with px.
+            - rem : doen't inherit from parent(recommended)
+      - https://www.flaticon.com/ : website for icons
+      - https://giphy.com/ : for animated images
+      - float: ; property of images make them to be placed left, right etc wrt to texts around.
