@@ -137,3 +137,13 @@ SECTION 4&5: CSS
       - https://www.flaticon.com/ : website for icons
       - https://giphy.com/ : for animated images
       - float: ; property of images make them to be placed left, right etc wrt to texts around.
+      - clear: ; anti float property for texts. Don't allow them to wrapped around floatted imgs rather placed the
+        texts beneath the imgs.
+      - float should not be used for positioning and should be used only for wrapping elements over other
+        elements.
+      - https://cssbuttoncreator.com/ : for creating personalised buttons.
+      - https://www.frontendmentor.io/ : for solving and practicing frontend designs.
+====================================================================================================================================
+
+SECTION 6: BOOTSRAP
+- https://www.codeply.com/ : like codepen but with front-end libraries like bootstrap, angular and react.
