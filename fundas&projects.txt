@@ -147,3 +147,14 @@ SECTION 4&5: CSS
 
 SECTION 6: BOOTSRAP
 - https://www.codeply.com/ : like codepen but with front-end libraries like bootstrap, angular and react.
+- Workflow of web-design:
+    1.Looking other people's websites : https://www.awwwards.com/
+    2.Looking at some UI patterns : https://ui-patterns.com/
+    3.Creating a simple wireframe sketch of ur website using pen and paper
+        -download & printout : https://sneakpeekit.com/
+    4.Optional Step : create a mockup using photoshop
+    5.Optional : prototype
+- design inspiration : https://dribbble.com/
+- NAVBAR:
+    -https://getbootstrap.com/docs/4.5/components/navbar/
+    -https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12288048#questions/11233661
