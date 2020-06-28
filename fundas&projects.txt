@@ -145,7 +145,7 @@ SECTION 4&5: CSS
       - https://www.frontendmentor.io/ : for solving and practicing frontend designs.
 ====================================================================================================================================
 
-SECTION 6: BOOTSRAP
+SECTION 6&7: BOOTSRAP
 - https://www.codeply.com/ : like codepen but with front-end libraries like bootstrap, angular and react.
 - Workflow of web-design:
     1.Looking other people's websites : https://www.awwwards.com/
@@ -165,3 +165,9 @@ SECTION 6: BOOTSRAP
   - Containers
   - Buttons and using fontawesome icons inside these buttons.
   - how to increase fontawesome icon size ie by adding fa-4x in <i>.
+  - option+drag : multiple cursor
+  - to make any image or anything just change their width.
+  - BOOTSTRAP CAROUSEL: for including slider option for slide show.
+  - BOOTSRAP CARDS: header, body and footer in a smaller box.
+  - CSS z-index:; : for stacking order of elemenets. It detrmines which element should be closer or far away
+    from the screen. Every element has a default z-index of 0.
