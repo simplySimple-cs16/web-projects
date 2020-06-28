@@ -59,7 +59,7 @@ SECTION 4&5: CSS
     - HTML div for dividing HTML ELEMENT into sections
     - box model : border, margin and padding concept
     - border : solid 10px; //shortcut for specicifying border type and size
-    - CSS diaplay properties:
+    - CSS display properties:
         -block
           -block element takes up the whole WIDTH of the screen
           -block elements: h1,p
@@ -171,3 +171,5 @@ SECTION 6&7: BOOTSRAP
   - BOOTSRAP CARDS: header, body and footer in a smaller box.
   - CSS z-index:; : for stacking order of elemenets. It detrmines which element should be closer or far away
     from the screen. Every element has a default z-index of 0.
+    - z-index doesn't apply to an element until and unless it is positioned absolute or relative or fixed.
+  -https://search.google.com/test/mobile-friendly : for checking if ur website is mobile friendly.
