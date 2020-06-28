@@ -173,3 +173,18 @@ SECTION 6&7: BOOTSRAP
     from the screen. Every element has a default z-index of 0.
     - z-index doesn't apply to an element until and unless it is positioned absolute or relative or fixed.
   -https://search.google.com/test/mobile-friendly : for checking if ur website is mobile friendly.
+  - CSS Media Query : change css properties according to certain conditions like screen size, when printing or
+      during speech.
+      -@media <type> <feature> and <feature>
+      -eg: @media screen (max-width : 900px){
+          h1{
+              color:red;
+          }
+      }
+      --> for all displays with screen size of 900px width or lesser all h1 should be coloured red.
+  - page sections can be navigated using href to that section ID.
+  - Code Refactoring:
+     1.Readability
+     2.Modularity
+     3.Efficiency
+     4.Length
