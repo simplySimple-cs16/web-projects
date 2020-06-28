@@ -155,10 +155,13 @@ SECTION 6: BOOTSRAP
     4.Optional Step : create a mockup using photoshop
     5.Optional : prototype
 - design inspiration : https://dribbble.com/
-- NAVBAR:
-    -https://getbootstrap.com/docs/4.5/components/navbar/
-    -https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12288048#questions/11233661
-- Grid Layout:
-    - one row have 12 columns. That means if u specify the class of a column inside a row as col-6 it will take 50% of the
-      screen
-- Containers
+** Project 3: TinDog
+  - NAVBAR:
+      -https://getbootstrap.com/docs/4.5/components/navbar/
+      -https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12288048#questions/11233661
+  - Grid Layout:
+      - one row have 12 columns. That means if u specify the class of a column inside a row as col-6 it will take 50% of the
+        screen
+  - Containers
+  - Buttons and using fontawesome icons inside these buttons.
+  - how to increase fontawesome icon size ie by adding fa-4x in <i>.
