@@ -188,3 +188,41 @@ SECTION 6&7: BOOTSRAP
      2.Modularity
      3.Efficiency
      4.Length
+  - Combining CSS selectors :
+    1.Multiple Selectors:
+      - selector1, selector2 {
+
+      }
+      -eg: h1, h2, h3 {
+
+      }
+    2.Hierarchical Selectors:
+      - selector1 selector2{
+
+      }
+      - selector1 is parent of selector2.
+      - eg .container-fluid h1 {
+
+      }
+        --> Apply the css properties to only those h1 which are inside container-fluid class and not outside.
+    3.Combined selector:
+      -selector1selector2{} //no space
+      -works for selectors at the SAME HTML TAG.
+      - eg: <div class="name"> </div>
+        div.name{}
+        --> apply the css properties to only those divs who has a direct [not child] class name of 'name'.
+==============================================================================================================================
+
+SECTION 8: Javascript
+  - Data Types:
+    1.string
+    2.number
+    3.boolean
+  - alert(''); -> for printing to the screen
+  - prompt('message'); -> for asking input from the user
+  - Javascript variable naming convention:
+      1. Can't start with number.
+      2. Can't be a keyword
+      3. Can't contain spaces.
+      4. CAN only contain aA, 123, _ and $
+  - strings can be concatenated by +
