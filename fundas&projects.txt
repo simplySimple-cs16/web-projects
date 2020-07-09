@@ -33,7 +33,7 @@ SECTION 4&5: CSS
         -first: Inline
         -second: Internal
         -third: External
-    - CSS sytax:
+    - CSS syntax:
         selector{proerty:value;}
     - advisable to list css proerties in alphabetical order so that the debugging process is easier
     - css selectors in order of increasing priority:
@@ -232,3 +232,39 @@ SECTION 8: Javascript
       - word.toUpperCase();
         word.toLowerCase();
   - Math.random(); -> generates a number which is >=0 but <1
+      - if u need a whole number betwee 1 and n:
+          var number = Math.floor(Math.random()*n) + 1;
+  - conditionals:
+      if(){
+
+      }
+      else if(){
+
+      }
+      else{
+
+      }
+  - Comparators:
+      === : equal to
+      !== : not equal to
+      >   : greater
+      <   : lesser
+      >=  : greater than or equal to
+      <=  : lesser than or equal to
+      ==  : similar to === but neglects the data types of the operands i.e 1 == "1" -> true
+  - arrays:
+    var arrName = [n1,n2,n3];
+    - arr.includes('elementName'); -> returns true if in array else false
+    - arr.push('elName'); ->push the element at the end of the array
+    - arr.pop; -> pop the last element from the array
+  - loops:
+    - var i=0;
+      while(i<n){
+        .....
+        i++;
+      }
+    - for(var i=0;i<n;i++){
+        ......
+      }
+  - www.draw.io : for drawing flowcharts
+  - 
