@@ -226,3 +226,9 @@ SECTION 8: Javascript
       3. Can't contain spaces.
       4. CAN only contain aA, 123, _ and $
   - strings can be concatenated by +
+  - string slice :
+    s.slice(start, end); -> start index is included but end is not included
+  - change all characters in string to upper case or lower case:
+      - word.toUpperCase();
+        word.toLowerCase();
+  - Math.random(); -> generates a number which is >=0 but <1
