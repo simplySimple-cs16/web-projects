@@ -22,10 +22,11 @@ SECTION 2&3 : HTML
 
 SECTION 4&5: CSS
   **Project 1 Continued
-    - Inline css : css code within [the same html file : INCORRECT] a tag i.e as an attribute to an HTML element
+    - Inline CSS : css code within [the same html file : INCORRECT] a tag i.e as an attribute to an HTML element
     - https://colorhunt.co/ : Color Palettes for Designers and Artists
     - https://developer.mozilla.org/en-US/docs/Web/CSS/color_value : color hex values and their names
     - Internal CSS : css code within the head section of the HTML file and applies for selected tags
+      it can be declared at anywhere but the position matters basically we want our css to load before HTML
     - overriding default browser css value for hr
     - External CSS : css code lies in another file than the html file
     - link for linking stylesheet
@@ -267,4 +268,15 @@ SECTION 8: Javascript
         ......
       }
   - www.draw.io : for drawing flowcharts
-  - 
+  - Javascript Types(same as CSS):
+    1.Inline:
+      eg: <body onload="alert('Hi dear!');"> </body>
+    2.Internal: it can be declared at anywhere but the position matters
+      eg: <body>
+              <srcipt type="text/javascript">
+                  alert("Hello world!");
+              </script>
+          </body>
+    3. External: Separate file for javascript code
+      - link to javascript script file has to be placed at the bottom as opposite to css because if we place it
+        at the top then sometimes we are already selecting an element that does not exist till now.
