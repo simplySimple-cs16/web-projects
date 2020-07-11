@@ -214,7 +214,7 @@ SECTION 6&7: BOOTSRAP
         --> apply the css properties to only those divs who has a direct [not child] class name of 'name'.
 ==============================================================================================================================
 
-SECTION 8: Javascript
+SECTION 8-13: Javascript
   - Data Types:
     1.string
     2.number
@@ -280,3 +280,29 @@ SECTION 8: Javascript
     3. External: Separate file for javascript code
       - link to javascript script file has to be placed at the bottom as opposite to css because if we place it
         at the top then sometimes we are already selecting an element that does not exist till now.
+  - HTML - DOM(Document Object Model)
+      Every HTML element is actually an object which can be selected and manipulated(i.e properties like colors
+      methods like checking a input check box)
+  - Selecting HTML element by using javascript:
+      1. document.querySelector("h1 or #id or .className or combinedSelectors"); -> return a single element
+          and the first one incase of multiple elements.
+      2. document.querySelectorAll("h1 or #id or .className or combinedSelectors"); -> return array of elements
+      3. document.getElementsByTagName(""); -> returns array of tags
+      4. document.getElementsByClassName(""); -> returns array of classes.
+      5. document.getElementByID(""); -> returns a single id.
+  - CSS naming convention : - between Words.
+    Javascript naming convention : Camel Casing.
+  - How to NOT use javascript for doing css jobs:
+      1. document.querySelector().classList.add(".className"); //className can be defined in the css file
+      2. document.querySelector().classList.remove(".className");
+      3. document.querySelector().classList.toggle(".className");
+  - .innerHTML() -> applies to all the html element inside the tag selected
+    .textContent() -> applies to only the text and neglects other html elements inside the tag selected.
+  - Manipulating the html Attributes of html Tag:
+        document.querySelector("tagElementName").attributes;
+        document.querySelector("tagElementName").getAttribute("href");
+        document.querySelector("tagElementName").setAttribute("href","https://kadum.in");
+  == Dicee Challenge:
+      Applied concept of random number and document.querySelectorAll()[].setAttribute(,);
+  **Project 4 : Drum Kit
+      - Adding .addEventListerner() to a button.
