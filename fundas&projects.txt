@@ -306,3 +306,64 @@ SECTION 8-13: Javascript
       Applied concept of random number and document.querySelectorAll()[].setAttribute(,);
   **Project 4 : Drum Kit
       - Adding .addEventListerner() to a button.
+      - U don't call ur javascript function in addEventListerner() but instead pass it as a parameter to addEventListerner()
+        by not including the parenthesis
+          eg: document.querySelectorAll(".drum")[i].addEventListener("click", functionName);
+          document.querySelectorAll(".drum")[i].addEventListener("click", functionName()); -> this will not wait
+          for the event to happen which is click here instead it will directly execute the function.
+        - or we can define an ANONYMOUS function directly as the parameter of addEventListener();
+          eg: document.querySelectorAll(".drum")[i].addEventListener("click", function(){
+
+          });
+      - How to use debugger in chrome developer tools
+         1. type "debugger;"
+         2. press shift + enter
+         3. call ur function which u want to debug.
+         4. press enter
+      - Higher Order Functions : Functions that take functions as arguments or parameters.
+      - this -> for getting the html tag responsible for the event to happen which was detected by addEventListener()
+      - javascript object :
+          var boy1 = {
+          name : "Kadum",
+          age : 21,
+          languages : ["Adi","English","Hindi"],
+          isSingle : true
+          }
+          boy1.name; -> "Kadum"
+      - javascript constructor function (similar to class):
+        function Boy(name,age,languages,isSingle){ //Function name MUST START WITH A CAPITAL LETTER
+          this.name = name;
+          this.age = age;
+          this.languages = languages;
+          this.isSingle = isSingle;
+        }
+        eg : var boy2 = new Boy("Terbi",21,["galo"],false);
+      - used javascript switch case
+      - including methods to an object:
+          function Boy(name,age,languages,isSingle){ //Function name MUST START WITH A CAPITAL LETTER
+            this.name = name;
+            this.age = age;
+            this.languages = languages;
+            this.isSingle = isSingle;
+            this.work = function( .... ){};
+          }
+
+          var boy3 = new Boy(.....);
+          boy3.work(); --> use parenthesis for executing a function.
+      - learn to detect which key was pressed in the keyboard i.e event listener for the keyboard.
+      - callback function funda
+          function (param1){
+          .....
+          }
+          param1 causes the function to be called which is also called event.
+          eg:
+          document.addEventListener("keypress", function(event) {
+
+            makeSound(event.key);
+
+            buttonAnimation(event.key);
+
+          });
+          --> event is responsible for the listener to take its action.
+      - remember callback function are not called by the user but by the system
+      - More about callbacks : Lecture 180 : https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12384168#questions
