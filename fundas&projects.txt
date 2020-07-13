@@ -367,3 +367,14 @@ SECTION 8-13: Javascript
           --> event is responsible for the listener to take its action.
       - remember callback function are not called by the user but by the system
       - More about callbacks : Lecture 180 : https://www.udemy.com/course/the-complete-web-development-bootcamp/learn/lecture/12384168#questions
+      - setTimeout(function() {...}, 100); -> javascript fn to run the function after 100 mSeconds.
+============================================================================================================================================================
+
+- SECTION 14 : JQUERY : The javascript library that prevents our fingers from  breaking.
+  - jquery CDN should be placed ABOVE the javascript srcipt src. Else jquery won't be applied to ur website.
+  - if u want to put ur jquery and javascript src links in the head section of the html file then enclose
+    all of ur javascript code in .js file by :
+      $.(document).ready(function (){
+          ....write ur js code here
+        }); -> this line check if ur html object are ready then apply the javascript.
+  -$("") === document.querySelectorAll("")
