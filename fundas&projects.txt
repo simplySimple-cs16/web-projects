@@ -377,4 +377,9 @@ SECTION 8-13: Javascript
       $.(document).ready(function (){
           ....write ur js code here
         }); -> this line check if ur html object are ready then apply the javascript.
-  -$("") === document.querySelectorAll("")
+  - $("") === document.querySelectorAll("")
+  - Manipulating styles with jquery:
+      - $("h1").css("color"); -> return color of h1
+      - $("h1").css("color","green"); -> set color to green
+      - $("h1").addClass("classnName") === document.querySelector().classList.add(".className"); // no "." in className
+      - $("h1").removeClass("classnName");
