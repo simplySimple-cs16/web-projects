@@ -444,3 +444,13 @@ SECTION 8-13: Javascript
   - ls = list all files in a directory
   - cd .. =  one directory back
   - option + click = to position ur cursor at anywhere. Useful incase of long command.
+  - ctrl + a = goes to beginning of command
+  - ctrl + e = goes to end of a command
+  - ctrl + u = clears an entire line
+  - mkdir newDirectory = for making new folders
+  - touch newFile.txt = for making new files
+  - open newFile.txt = for opening the file with the default application.
+  - open -a Atom newFile.txt = for opening file with an application.
+  - pwd = print working directory.
+  - rm * = removes everything in a directory
+  
