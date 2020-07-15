@@ -370,7 +370,7 @@ SECTION 8-13: Javascript
       - setTimeout(function() {...}, 100); -> javascript fn to run the function after 100 mSeconds.
 ============================================================================================================================================================
 
-- SECTION 14 : JQUERY : The javascript library that prevents our fingers from  breaking.
+- SECTION 14&15 : JQUERY : The javascript library that prevents our fingers from  breaking.
   - jquery CDN should be placed ABOVE the javascript srcipt src. Else jquery won't be applied to ur website.
   - if u want to put ur jquery and javascript src links in the head section of the html file then enclose
     all of ur javascript code in .js file by :
@@ -383,3 +383,64 @@ SECTION 8-13: Javascript
       - $("h1").css("color","green"); -> set color to green
       - $("h1").addClass("classnName") === document.querySelector().classList.add(".className"); // no "." in className
       - $("h1").removeClass("classnName");
+      - $("h1").addClass("classnName1 className2") -> adding multiple classes
+      - $("h1").hasClass("classnName"); -> return true or false depending if class is present or not.
+      - $("h1").text("Updated"); -> to change only the text inside the h1 tags.
+      - $("h1").html("<em>Emphasised</em>"); -> to change the inner html inside h1 tags.
+      - $("img").attr("src"); -> getting an attribute.
+      - $("a").attr("href","www.yahoo.com"); ->setting an  attribute, classes can also be changed by this method.
+      - Adding event listener:
+        $("h1").click(function(){
+          $("h1").css("color","green");
+        });
+        -> this applies to all the h1 and we don't have to use a loop to do that like in javascript.
+      - adding event listerner for keyboard key press:
+        $("input").keypress(function(event){
+          console.log(event.key);
+        });
+      - MOST FLEXIBLE WAY OF ADDING EVENT LISTENER:
+          $("h1").on("click",function(){
+
+          });
+      - adding and removing HTML elements:
+        1. $("h1").before("<button>New</button>");
+          ->what it does:
+             <button>New</button> <h1>Hello</h1>
+
+        2. $("h1").after("<button>New</button>");
+           ->what it does:
+              <h1>Hello</h1> <button>New</button>
+        3. $("h1").prepend("<button>New</button>");
+          ->what it does:
+            <h1>  <button>New</button> Hello</h1>
+        4. $("h1").append("<button>New</button>");
+           ->what it does:
+            <h1>Hello  <button>New</button> </h1>
+        5. $("button").remove();
+      - Website animations with jQuery:
+        .hide()
+        .show()
+        .toggle()
+        .fadeOut()
+        .fadeIn()
+        .fadeToggle()
+        .slideUp()
+        .slideDown()
+        .slideToggle()
+        -for custom css animations:
+          .animate({
+            opacity: 0.5 -> THIS VALUE MUST BE NUMERIC I.E POPERTIES LIKE COLOR:RED WILL NOT WORK.
+            //margin : "20%" -> this will work too.
+          })
+        - combination of animations:
+          $("h1").slideUp().slideDown().animate({opacity:0.5});
+
+   *SIMON CHALLENGE:
+      - Applied every concept of jquery.
+      - conditional statements revisited.
+=============================================================================================================================================
+
+- SECTION 16 : THE UNIX COMMAND LINE
+  - ls = list all files in a directory
+  - cd .. =  one directory back
+  - option + click = to position ur cursor at anywhere. Useful incase of long command.
