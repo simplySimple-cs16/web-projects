@@ -453,4 +453,10 @@ SECTION 8-13: Javascript
   - open -a Atom newFile.txt = for opening file with an application.
   - pwd = print working directory.
   - rm * = removes everything in a directory
-  
+=============================================================================================================================================
+
+SECTION 18 : NODE.JS
+- how to run a .js file:
+    node fileName.js
+- Node REPL - Read Evaluation Print Loop : allow the terminal to run js code like the chrome developer tool console.
+- 
