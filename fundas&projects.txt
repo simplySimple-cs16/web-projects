@@ -459,4 +459,21 @@ SECTION 18 : NODE.JS
 - how to run a .js file:
     node fileName.js
 - Node REPL - Read Evaluation Print Loop : allow the terminal to run js code like the chrome developer tool console.
-- 
+- How to use node REPL:
+    node
+- how to list all the possible commands after typing few initials:
+  double tab
+- how to exit REPL:
+  .exit
+  or double ctrl+c
+- learn how to use node modules : especially the fileSystem
+    //jshint esversion:6 -> this comment is for removing warnings that tells u that commands used are for higher
+    version of js
+    const fs = require("fs");
+    fs.copyFileSync("originalFile.txt","copiedFile.txt");
+- npm : Node Package Manager - for using External Node Modules.
+- how to use npm:
+  1. In the same directory of your .js file or inside ur project folder type:
+      node init
+  2. fill up all the necessary details
+  3. npm install npmPackageName
