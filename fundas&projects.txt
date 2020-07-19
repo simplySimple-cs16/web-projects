@@ -453,6 +453,7 @@ SECTION 8-13: Javascript
   - open -a Atom newFile.txt = for opening file with an application.
   - pwd = print working directory.
   - rm * = removes everything in a directory
+  - atom . = for opening the current folder in atom
 =============================================================================================================================================
 
 SECTION 18 : NODE.JS
@@ -477,3 +478,9 @@ SECTION 18 : NODE.JS
       node init
   2. fill up all the necessary details
   3. npm install npmPackageName
+
+  ====================================================================================================================
+
+  SECTION 19: EXPRESS.JS WITH NODE.JS
+  - As jquery is to javascript so is express to node.
+  - nodemon : npm package that automatically restarts ur server when something changes.
