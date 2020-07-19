@@ -484,3 +484,6 @@ SECTION 18 : NODE.JS
   SECTION 19: EXPRESS.JS WITH NODE.JS
   - As jquery is to javascript so is express to node.
   - nodemon : npm package that automatically restarts ur server when something changes.
+  - __dirname : should be used for safety before ur file paths. It is basically the pwd
+  - body-parser : npm package to work with html variables which are posted to the server
+  - 
