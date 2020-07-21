@@ -486,4 +486,11 @@ SECTION 18 : NODE.JS
   - nodemon : npm package that automatically restarts ur server when something changes.
   - __dirname : should be used for safety before ur file paths. It is basically the pwd
   - body-parser : npm package to work with html variables which are posted to the server
-  - 
+  =====================================================================================================================
+
+  SECTION 20: APIs
+  - Things to include when dealing with APIs:
+      1.Endpoint
+      2.Paths
+      3.Parameters
+      4.Authentication
