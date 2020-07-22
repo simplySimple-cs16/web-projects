@@ -449,6 +449,7 @@ SECTION 8-13: Javascript
   - ctrl + u = clears an entire line
   - mkdir newDirectory = for making new folders
   - touch newFile.txt = for making new files
+  - touch file1.html file2.js = for making multiple files
   - open newFile.txt = for opening the file with the default application.
   - open -a Atom newFile.txt = for opening file with an application.
   - pwd = print working directory.
@@ -478,6 +479,7 @@ SECTION 18 : NODE.JS
       node init
   2. fill up all the necessary details
   3. npm install npmPackageName
+     npm i npmPackageName
 
   ====================================================================================================================
 
@@ -486,6 +488,7 @@ SECTION 18 : NODE.JS
   - nodemon : npm package that automatically restarts ur server when something changes.
   - __dirname : should be used for safety before ur file paths. It is basically the pwd
   - body-parser : npm package to work with html variables which are posted to the server
+  - we can have only one res.send for app.get but multiple res.write
   =====================================================================================================================
 
   SECTION 20: APIs
@@ -494,3 +497,12 @@ SECTION 18 : NODE.JS
       2.Paths
       3.Parameters
       4.Authentication
+  - Postman app : app for getting API results in a structured way as compared to the browser.
+    Postman is a collaboration platform for API development. Postman's features simplify each
+    step of building an API and streamline collaboration so you can create better APIs—faster.
+  - JSON.parse(data) -> converts json data in any format i.e. hexadecimal or string into
+    javascript OBJECT.
+  - JSON.stringify(JsObj) -> converts JS object into JSON string.
+
+  *** Newsletter-Signup :  A simple app for collecting emails using remote server
+    - 
