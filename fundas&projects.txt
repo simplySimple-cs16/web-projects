@@ -455,6 +455,7 @@ SECTION 8-13: Javascript
   - pwd = print working directory.
   - rm * = removes everything in a directory
   - atom . = for opening the current folder in atom
+  - u can drag and drop a folder in terminal to get its full path.
 =============================================================================================================================================
 
 SECTION 18 : NODE.JS
@@ -505,6 +506,15 @@ SECTION 18 : NODE.JS
   - JSON.stringify(JsObj) -> converts JS object into JSON string.
 
   *** Newsletter-Signup :  A simple app for collecting emails using remote server
+    - Learn how to use Mailchimp API and use heroku server for app hosting.
     - app.use(express.static("public")); -> to use static files in ur project under the
       folder name "public." Comes in handy when ur website is using css and images alongside
       ur main html page.
+    - process.env.PORT -> for a dynamic port for remote servers to listen to
+    - process.env.PORT||3000 -> TO let the app work both remotely and locally
+    - to check errors regarding app hosting in heroku servers:
+        'heroku logs' in your terminal
+    - whenever u want to update the changes made locally to the heroku server:
+       git add .
+       git commit -m "new update"
+       git push heroku master

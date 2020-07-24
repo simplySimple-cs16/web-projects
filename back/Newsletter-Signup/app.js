@@ -38,10 +38,16 @@ app.post("/",function(req,res){
 
   const options = {
     method: "POST",
-    auth:"randomString:7590322b368b4a43b27d3481996f2c84-us17"
+    auth:"randomString:17a405daa46c5aa89d7b477a53ea5b57-us17"
   }
 
   const request = https.request(url,options,function(response){
+    if(response.statusCode === 200){
+      res.sendFile(__dirname+"/success.html");
+    }
+    else{
+      res.sendFile(__dirname+"/failure.html");
+    }
       response.on("data",function(d){
         console.log(JSON.parse(d));
       });
@@ -52,12 +58,18 @@ app.post("/",function(req,res){
 
 });
 
-app.listen(3000,function(){
+app.post("/failure",function(req,res){
+  res.redirect("/");
+});
+
+app.listen(process.env.PORT || 3000,function(){
   console.log("Server running at port 3000");
 });
 
 //API key
-//7590322b368b4a43b27d3481996f2c84-us17
+//17a405daa46c5aa89d7b477a53ea5b57-us17
 
 //list id
 //14c2f89484
+
+//heroku server: https://floating-meadow-65930.herokuapp.com/
