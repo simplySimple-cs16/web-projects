@@ -505,4 +505,6 @@ SECTION 18 : NODE.JS
   - JSON.stringify(JsObj) -> converts JS object into JSON string.
 
   *** Newsletter-Signup :  A simple app for collecting emails using remote server
-    - 
+    - app.use(express.static("public")); -> to use static files in ur project under the
+      folder name "public." Comes in handy when ur website is using css and images alongside
+      ur main html page.
