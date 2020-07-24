@@ -518,3 +518,68 @@ SECTION 18 : NODE.JS
        git add .
        git commit -m "new update"
        git push heroku master
+===================================================================================================================
+
+SECTION 21: GIT, GITHUB AND VERSION CONTROL
+- git init -> to incorporate git in any folder
+- git add fileName -> adding a file to status area
+- git add . ->adding every thing inside a folder to staging area
+- checking what files are staged or not: git status
+- git rm --cached -r . -> removing ever from staging area
+- git commit -m "ur messgae" -> adding a savepoint or checkpoint or commit
+- git log -> To see the checkpoints or commits
+- GIT METHODOLOGY:
+  1. WORKING DIRECTORY -->git add-->STAGING AREA-->git commit-->LOCAL REPOSITORY OR STORAGE-->git push-->REMOTE REPO
+  2. LOCAL REPOSITORY OR STORAGE-->git checkout-->PREVIOUS VERSION OR STATE OF THE GIT FOLDER
+- to see the difference between the current and just previous version of a file:
+  git diff filename
+- to rollback to the just previous v ersion of a file:
+  git checkout fileName
+- how to add a local repository to a remote repo in github:
+  1. Create a repo in github.
+  2. In terminal: git remote add origin remoteRepoURL //origin is the name of the remote repo and it
+      can be given other name.
+  3. git push -u origin master: pushing ur main BRANCH of local repo to the remote repo
+- GITIGNORE: IF YOU DON'T WANT SENSITIVE FILES SUCH AS PASSWORDS AND API KEYS TO BE
+              UPLOADED TO GITHUB.
+              -and also files that are useless for other users like .DS_Store files
+              which manages how files should look or arranged inside a folder.
+    1. Remove everything from staging area : git rm --cached -r .
+    1. Create a file name .gitignore
+          touch .gitignore
+    2. Open it : open .gitignore
+    3. Inside it write all the files in separate new lines which u don't want to commit or upload to github
+    Rules in .gitignore file:
+      1. # -> for line comment
+      2. *.txt -> means ignore every .txt type files
+    4. git add . and now u don't see ur ignored files in staging area
+    5. git commit -m "ur message"
+    https://github.com/github/gitignore : template for git ignore for various type of projects
+  - CLONING : Fetching remote repository to local device
+    - git clone remoteRepoURL -> for cloning the remote repository to ur local device
+
+  -BRANCHING:
+    - git branch branchName -> to create a new branch other than the master
+    - git branch -> to list all the branches
+    - git checkout bracnhName -> to switch branch
+    - MERGING:
+      - to merge another branch to the master:
+        1. git checkout master
+        2. git merge branchName
+              - write a merge message in the vim
+              - :q! -> to exit vim
+    - PULL REQUEST: request to merge branch to another branch.
+        - if u want to pull request to merge branch 2 to branch 1 then u have to be in ur branch 1
+          and then pull request to merge branch 2 to branch 1 ie pulling changes from branch 2 to 1.
+        - It is a feature in GITHUB to facilitate git merge functionality as in CLI git.
+
+  - COLLABORATION USING REMOTE REPOSITORIES:
+      - FORKING : To make a copy of a remote repo so that u can edit it now.
+      - U can clone a forked repo in ur local device so that u can work it upon locally.
+      - finally when u r satisfied and want to incorporate ur changes to the original repository, then
+        first u have to push from local to the forked repo and then CREATE A PULL REQUEST TO THE ORIGINAL REPO
+         TO ACCEPT YOUR EDITTED FORKED REPO.
+================================================================================================================================================
+
+SECTION 22 : EJS
+  - 
