@@ -582,4 +582,5 @@ SECTION 21: GIT, GITHUB AND VERSION CONTROL
 ================================================================================================================================================
 
 SECTION 22 : EJS
-  - 
+  - Templating : Incorporating logic in HTML i.e changing the SAME HTML file to look differently with
+    changing values.
