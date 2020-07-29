@@ -269,6 +269,11 @@ SECTION 8-13: Javascript
     - for(var i=0;i<n;i++){
         ......
       }
+    - var numbers = [1,2,5,6,7];
+      numbers.forEach(function(number){
+      console.log(number);
+      });
+      ->1 2 5 6 7
   - www.draw.io : for drawing flowcharts
   - Javascript Types(same as CSS):
     1.Inline:
@@ -489,6 +494,7 @@ SECTION 18 : NODE.JS
   SECTION 19: EXPRESS.JS WITH NODE.JS
   - As jquery is to javascript so is express to node.
   - nodemon : npm package that automatically restarts ur server when something changes.
+      - rs -> nodemon command to restart the server forcefully
   - __dirname : should be used for safety before ur file paths. It is basically the pwd
   - body-parser : npm package to work with html variables which are posted to the server
   - we can have only one res.send for app.get but multiple res.write
@@ -605,3 +611,4 @@ SECTION 23 : Boss Level Challenge 3 -> BLOG WEBSITE
  - If u don't have node modules installed locally for a project but u do have the json package then u can just
    download them by typing in the terminal:
     npm install
+ - Express Route Parameters : https://expressjs.com/en/guide/routing.html
