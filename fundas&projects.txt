@@ -56,6 +56,8 @@ SECTION 4&5: CSS
               }
               -change the color of image to red when hovered
       - https://www.favicon.cc/ : for creating fav icons
+      - webkit-liner-gradient : for creating easily as in section 22
+
   **Project 2 : CSS - My Site
     - HTML div for dividing HTML ELEMENT into sections
     - box model : border, margin and padding concept
@@ -581,6 +583,25 @@ SECTION 21: GIT, GITHUB AND VERSION CONTROL
          TO ACCEPT YOUR EDITTED FORKED REPO.
 ================================================================================================================================================
 
-SECTION 22 : EJS
+SECTION 22 : EJS [EMBEDDED JAVASCRIPT TEMPLATING]
   - Templating : Incorporating logic in HTML i.e changing the SAME HTML file to look differently with
     changing values.
+  - <%= %> : tag for passing values
+  - <% %> : tag for adding javascript control flow like if,else,switch and while. Works on a line by line basis and
+      u have to surround only ur javascript code and not html and also put tags for every line even though two lines
+      are of the same code.
+  - JAVASCRIPT SCOPE CONCEPT:
+    - VAR varibales declared under if,FOR,WHILE OR ANY BLOCK OF CODE THAT HAS CURLY BRACES can be accessed even outside the brackets
+    - ITS SAFER TO USE LET INSTAEAD OF VAR.
+  - LAYOUTS OR PARTIALS:
+    -file of code which is to remain same in every pages of .ejs type files.
+    - included in .ejs files by:
+        <%- include("layoutName")-%>
+  - JAVASCRIPT EXPORTS:
+      - Help us to use functions from other .js files or MODULEs by requiring them as any other npm module
+================================================================================================================================================
+
+SECTION 23 : Boss Level Challenge 3 -> BLOG WEBSITE
+ - If u don't have node modules installed locally for a project but u do have the json package then u can just
+   download them by typing in the terminal:
+    npm install
