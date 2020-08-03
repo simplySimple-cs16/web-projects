@@ -612,3 +612,22 @@ SECTION 23 : Boss Level Challenge 3 -> BLOG WEBSITE
    download them by typing in the terminal:
     npm install
  - Express Route Parameters : https://expressjs.com/en/guide/routing.html
+ - lodash i.e _ Module : used for string operations. Also other features available.
+ - IMP : ejs can be used inside strings even to make it dynamic
+      eg:
+      <a href="/posts/<%=post.title%>">Read More</a>
+================================================================================================================================================
+
+SECTION 25 : SQL
+-CRUD :
+  C - Create
+  R - READ  //SELECT
+  U - UPDATE //UPDATE for rows & ALTER for columns
+  D - DESTROY //DELETE
+- Database practice : https://sqliteonline.com/
+- SQL w3School : https://www.w3schools.com/sql
+================================================================================================================================================
+
+SECTION 26 : MONGODB
+- CREATE :
+    use dbName
