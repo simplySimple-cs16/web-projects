@@ -635,3 +635,8 @@ SECTION 26 : MONGODB
 - show collections -> to show the collections or Tables
 - C -> CREATE:
     -db.products.insertOne({key:value})
+- R -> READ / Query
+    - db.products.find()
+    - db.products.find({key:value})
+    - db.products.find({price:{$gt:1}}) -> all records which has price greater than 1.0
+    - query operators : https://docs.mongodb.com/manual/reference/operator/query/
