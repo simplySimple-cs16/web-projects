@@ -633,3 +633,5 @@ SECTION 26 : MONGODB
 - use dbName -> to create a Database
 - db -> to list the datbase u r currently workin in
 - show collections -> to show the collections or Tables
+- C -> CREATE:
+    -db.products.insertOne({key:value})
