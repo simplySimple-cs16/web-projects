@@ -691,5 +691,41 @@ SECTION 26 : MONGODB
     }
 - CONNECTING MONGODB TO NODE.JS :
   - TWO WAYS:
-  1. MongoDB Native Driver
+  1. MongoDB Native Driver : https://mongodb.github.io/node-mongodb-native/?jmp=docs
   2. ODM : Object Document Mapper like MONGOOSE
+===================================================================================================================
+
+SECTION 27 : MONGOOSE
+**Fruits Project
+- while creating a collection u have to name it singular and mongoose will automatically
+  convert it to plural using _lodash
+  for eg:
+  const Fruit = mongoose.model("Fruit",fruitSchema); //mongoose will automatically name
+//your db as fruits from the defined model "Fruit" using _lodash
+  and
+  person -> people
+  Child -> children etc
+
+- Steps to create and insert :
+  1. create a schema for DB
+  2. create a model out of the schema.
+      - Model properties : https://mongoosejs.com/docs/api.html#Model
+  3. create an instance of the model.
+  4. Save it to DB
+- If u specify more than one mongoose.connect() i.e try to create more than one DB, then every table or
+  collection created and record inserted will be saved to the FIRST DB only and NO OTHER DB WILL BE CREATED.
+- //Adding validation to properties: https://mongoosejs.com/docs/validation.html
+    const fruitSchema = new mongoose.Schema({
+      name: String,
+      rating: {
+        type: Number,
+        min: 1,
+        max: 10
+      },
+      review: String
+    });
+=============================================================================================================================================
+
+SECTION 28 : PUTTING EVERYTHING TOGETHER
+** To-Do List V2:
+  - Now with database included
